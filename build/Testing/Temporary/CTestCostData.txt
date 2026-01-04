@@ -1,0 +1,30 @@
+integration: 0 0
+integration: 0 0
+integration: 0 0
+integration: 0 0
+integration: 0 0
+integration: 0 0
+strict_csv 0 0
+strict_csv 0 0
+strict_csv 0 0
+integration: 0 0
+strict_csv 0 0
+strict_csv 0 0
+strict_csv 0 0
+integration: 0 0
+strict_csv 0 0
+strict_csv 0 0
+strict_csv 0 0
+integration: 0 0
+strict_csv 0 0
+strict_csv 0 0
+strict_csv 0 0
+integration: 0 0
+strict_csv 0 0
+strict_csv 0 0
+strict_csv 0 0
+integration: writes only median changes (TЗ, fixed-8) 1 0.0156466
+strict_csv rejects invalid side (TЗ error handling) 1 0.0181086
+strict_csv rejects invalid rebuild (TЗ error handling) 1 0.018435
+strict_csv error contains file and line (TЗ requirement) 1 0.0113825
+---

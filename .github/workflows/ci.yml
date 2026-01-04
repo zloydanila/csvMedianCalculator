@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  docker:
+    name: Build + test (Docker)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build image (runs ctest in Dockerfile)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          tags: csv-median-calculator:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Run container smoke-test
+        run: docker run --rm csv-median-calculator:ci

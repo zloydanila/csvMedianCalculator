@@ -1,0 +1,14 @@
+build/
+cmake-build-*/
+**/CMakeCache.txt
+**/CMakeFiles/
+
+.git/
+.vscode/
+.idea/
+
+*.o
+*.a
+*.so
+*.dylib
+*.dll
