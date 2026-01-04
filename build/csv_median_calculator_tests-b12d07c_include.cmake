@@ -1,5 +1,0 @@
-if(EXISTS "/home/ionin/work/csvmediancalculator/build/csv_median_calculator_tests-b12d07c_tests.cmake")
-  include("/home/ionin/work/csvmediancalculator/build/csv_median_calculator_tests-b12d07c_tests.cmake")
-else()
-  add_test(csv_median_calculator_tests_NOT_BUILT-b12d07c csv_median_calculator_tests_NOT_BUILT-b12d07c)
-endif()

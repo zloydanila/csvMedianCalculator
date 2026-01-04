@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcsvmediancalculator_lib.a CMakeFiles/csvmediancalculator_lib.dir/src/config_parser.cpp.o CMakeFiles/csvmediancalculator_lib.dir/src/csv_reader.cpp.o CMakeFiles/csvmediancalculator_lib.dir/src/csv_writer.cpp.o CMakeFiles/csvmediancalculator_lib.dir/src/file_discovery.cpp.o CMakeFiles/csvmediancalculator_lib.dir/src/boost_median.cpp.o
-/usr/bin/ranlib libcsvmediancalculator_lib.a
