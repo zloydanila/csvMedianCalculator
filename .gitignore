@@ -1,0 +1,21 @@
+# CMake build dirs
+/build*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# IDE
+.vscode/
+.idea/
+*.user
+
+# Compile artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
